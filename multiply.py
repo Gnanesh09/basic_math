@@ -1,6 +1,13 @@
-num1 = float(input("first number: "))
-num2 = float(input("second number: "))
+def multiply_numbers():
 
-result = num1 * num2
+    num1 = float(input("first number: "))
+    num2 = float(input("second number: "))
 
-print("The result is:", result)
+ 
+    result = num1 * num2
+
+    # Display the result
+    print("The resultmis:", result)
+
+
+multiply_numbers()
